@@ -1,11 +1,11 @@
 {
-  "name": "digitalclock",
-  "version": "1.0.0",
-  "description": "digital clock",
-  "main": "index.js",
-  "scripts": {
-    "sass": "sass --watch ./main.scss:./style.css"
-  },
-  "author": "david",
-  "license": "ISC"
+    "name": "digitalclock",
+    "version": "1.0.0",
+    "description": "digital clock",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch ./main.scss:./style.css"
+    },
+    "author": "david",
+    "license": "ISC"
 }

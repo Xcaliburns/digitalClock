@@ -12,42 +12,47 @@ body {
   font-family: sans-serif;
   overflow: hidden;
 }
+
 body h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 3rem;
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
-  text-shadow: 5px 5px 8px rgb(0, 0, 0);
+  text-shadow: 5px 5px 8px black;
 }
 
 .clock {
   display: flex;
 }
+
 .clock div {
   margin: 5px;
   position: relative;
 }
+
 .clock span {
   width: 100px;
   height: 80px;
-  background: rgb(160, 3, 136);
+  background: #a00388;
   opacity: 0.7;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  text-shadow: 5px 5px 8px rgb(0, 0, 0);
+  text-shadow: 5px 5px 8px black;
   border-radius: 1.5rem;
 }
+
 .clock .text {
   height: 30px;
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background: rgb(3, 136, 160);
+  background: #0388a0;
 }
+
 .clock #ampm {
   bottom: 0;
   position: absolute;
@@ -56,5 +61,3 @@ body h2 {
   font-size: 20px;
   background: green;
 }
-
-/*# sourceMappingURL=style.css.map */
